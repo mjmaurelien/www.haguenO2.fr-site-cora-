@@ -1,0 +1,34 @@
+/*
+Theme Name:         Haguen02
+Theme URI:          http://Haguen02.fr
+Description:        Associations et commerces de Haguenau
+Version:            0.1
+Author:             Aurélien
+Author URI:         http://aurelien-ruch.com/
+
+License:            © 2016 - Haguen02.
+*/
+
+/* ----------------------------------------------------------------------------
+
+  Unfortunately WordPress will require a style.css file
+  located in the theme's root folder for stuff to work.
+
+  However, we will not be using vanilla CSS. We're using Sass.
+
+  Sass is a superset of CSS that adds in amazing features
+  such as variables, nested selectors and loops. It's also
+  the easiest way to customize Foundation.
+
+  All Sass files are located in the /assets/scss folder.
+  Please note that none of your scss files will be compiled to /stylesheets/foundation.css before you run
+  'npm run watch' or 'npm run build'.
+
+  Please read the README.md file before getting started. More info on how
+  to use Sass with Foundation can be found here:
+  http://foundation.zurb.com/docs/sass.html
+
+  If you for some reason would like to write plain css instead of using Sass,
+  you could just enqueue this file (style.css) to the header and add your styles in this file
+
+---------------------------------------------------------------------------- */

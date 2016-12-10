@@ -1,0 +1,121 @@
+#front-heros {
+	.marketing {
+		@include grid-row();
+		max-width: 55rem;
+	}
+
+	@include breakpoint(small) {
+		background: url('../images/cora/sildeO2.jpg') bottom center;
+		background-size: cover;
+		background-position: bottom;
+		padding: rem-calc(65%) 0;
+		margin: 0 0 rem-calc(32);
+		height: rem-calc(300);
+    position: relative;
+    top:28px;
+    width: 100%;
+
+	}
+
+	@include breakpoint(medium) {
+		background: url('../images/cora/sildeO2.jpg') bottom center;
+		background-size: cover;
+		background-position: center;
+		height: rem-calc(700);
+		margin: 0 0 rem-calc(72);
+	}
+
+
+}
+#front-heros-offres {
+	.marketing {
+		@include grid-row();
+		max-width: 55rem;
+	}
+
+	@include breakpoint(small) {
+		background: url('<?php echo $url ?>') bottom center;
+		background-size: cover;
+		background-position: bottom;
+		padding: rem-calc(65%) 0;
+		margin: 0 0 rem-calc(32);
+		height: rem-calc(300);
+    position: relative;
+    top:28px;
+    width: 100%;
+
+	}
+
+	@include breakpoint(medium) {
+		background: url('<?php echo $url ?>') bottom center;
+		background-size: cover;
+		background-position: center;
+		height: rem-calc(700);
+		margin: 0 0 rem-calc(72);
+	}
+
+
+}
+
+
+.teste{
+	background: url('../images/cora/img/cora.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+
+}
+.teste2{
+	background: url('../images/cora/img/deca.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+}
+.teste3{
+	background: url('../images/cora/img/deca1.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+}
+.teste4{
+	background: url('../images/cora/img/leroy.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+}
+.teste5{
+	background: url('../images/cora/img/general.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+}
+.teste6{
+	background: url('../images/cora/img/cora1.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+}
+.teste7{
+	background: url('../images/cora/img/mac.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+}
+.teste8{
+	background: url('../images/cora/img/happy.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(500);
+	margin: 0 0 rem-calc(0);
+}
+.time1{
+	background: url('../images/cora/cora.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(250);
+	margin: 0 0 rem-calc(0);
+}
+.time2{
+	background: url('../images/cora/leroy.jpg') center center no-repeat;
+	background-size: 100%;
+	height: rem-calc(250);
+	margin: 0 0 rem-calc(0);
+}

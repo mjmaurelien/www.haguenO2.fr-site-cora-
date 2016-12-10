@@ -1,0 +1,48 @@
+.float{
+	position: relative;
+}
+
+
+
+#front-construction {
+	.marketing {
+		@include grid-row();
+		max-width: 55rem;
+	}
+
+	@include breakpoint(small) {
+		background: url('../images/cora/Pageconstruction.svg') bottom center;
+		background-size: cover;
+		background-position: bottom;
+		padding: rem-calc(65%) 0;
+		margin: 0 0 rem-calc(32);
+		height: rem-calc(560);
+    position: relative;
+    top:28px;
+    width: 100%;
+		.errore{
+			position: absolute;
+			top:50px;
+			left: 0px;
+			padding: 0 10px;
+
+		}
+
+
+	}
+
+	@include breakpoint(medium) {
+		background: url('../images/cora/Pageconstruction_big.svg') bottom center;
+		background-size: cover;
+		background-position: center;
+		height: rem-calc(700);
+		margin: 0 0 rem-calc(72);
+		.errore{
+			position: absolute;
+			top:180px;
+			left: 10px;
+		}
+	}
+
+
+}

@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+$bleu-dark: #0d3c55;
+$bleu-light:#3cbed0;
+$hr:#244f65;
+
+h2{
+    font-size: 30px;
+    font-family: 'Roboto',Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $bleu-dark;
+
+}
+section{
+    padding:40px 0px;
+}
+.container{
+    padding:0;
+}
+
+.row{
+    margin: 0;
+    max-width:100rem;
+}
+#petit{
+    max-width: 60rem;
+    margin: 30px auto 0 auto;
+}
+.page_about #petit{
+    max-width: 60rem;
+    margin: 60px auto 0 auto;
+}
+#full{
+  margin: 60px auto 0 auto;
+  hr{
+    margin-bottom: 50px;
+  }
+}
+iframe{
+    margin: 0 auto;
+}
+.map{
+    padding: 0 10px;
+    .mapcontainer{
+      text-align: center;
+      margin: 0 auto;
+    }
+}
+.background_blue{
+  background: $bleu-dark;
+}
+.no-gutter{
+  padding: 0px !important;
+}

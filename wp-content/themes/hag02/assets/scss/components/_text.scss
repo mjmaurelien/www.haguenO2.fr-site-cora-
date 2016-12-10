@@ -1,0 +1,30 @@
+.blanc{
+        color:white;
+    }
+    .text-faded{
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Roboto',Arial, sans-serif;
+        padding: 10px;
+    }
+    .text-norm{
+      color: $bleu-dark;
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Roboto',Arial, sans-serif;
+      padding: 10px;
+    }
+		.light{
+		    margin: 10px auto 20px auto;
+		    border-bottom: 4px solid $hr;
+		    width: 200px;
+		}
+		.text-mention{
+		  color: $bleu-dark;
+		  font-size: 18px;
+		  font-weight: 400;
+		  font-family: 'Roboto',Arial, sans-serif;
+		  padding: 10px;
+		  text-align: left;
+		}

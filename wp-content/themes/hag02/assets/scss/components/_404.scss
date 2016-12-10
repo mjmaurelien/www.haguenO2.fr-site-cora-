@@ -1,0 +1,82 @@
+.float{
+	position: relative;
+}
+
+
+
+#front-404 {
+	h1,p{
+		color: #FFF;
+		font-family: 'Roboto',Arial, sans-serif;
+		font-weight: 700;
+	}
+	.marketing {
+		@include grid-row();
+		max-width: 55rem;
+	}
+
+	@include breakpoint(small) {
+		background: url('../images/cora/Page404_small.svg') bottom center;
+		background-size: cover;
+		background-position: bottom;
+		padding: rem-calc(65%) 0;
+		margin: 0 0 rem-calc(32);
+		height: rem-calc(560);
+    position: relative;
+    top:28px;
+    width: 100%;
+		.errore{
+			position: absolute;
+			top:50px;
+			left: 0px;
+			padding: 0 10px;
+
+		}
+
+
+	}
+
+	@include breakpoint(medium) {
+		background: url('../images/cora/Page404.svg') bottom center;
+		background-size: cover;
+		background-position: center;
+		height: rem-calc(700);
+		margin: 0 0 rem-calc(72);
+		.errore{
+			position: absolute;
+			top:180px;
+			left: 10px;
+		}
+	}
+
+
+}
+.entry-content{
+ul{
+	margin: auto;
+	a{
+	li{
+		display: block;
+		background: #FFF;
+		border: 2px solid $bleu-dark;
+		height: 50px;
+		width: 100%;
+		margin-top: 20px;
+		text-decoration: none;
+		padding: 10px;
+		text-align: center;
+		font-size: 16px;
+    font-family: 'Roboto',Arial, sans-serif;
+    font-weight: 700;
+    color: $bleu-dark;
+
+	}
+	}
+	li:hover{
+		background: $bleu-dark;
+		color: #FFF;
+		border: 2px solid #FFF;
+		transition: 0.5s;
+}
+}
+}
