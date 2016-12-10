@@ -127,13 +127,16 @@
   }
 }
 .bandeau{
-  margin-bottom: 10px !important;
+  margin-bottom: 5px !important;
 
 }
 .bandeau_offre{
-  max-height: 150px;
+  height: auto;
   width: 100%;
   margin: 0px;
-
+img{
+  height: auto;
+  width: 100%;
+}
 
 }
