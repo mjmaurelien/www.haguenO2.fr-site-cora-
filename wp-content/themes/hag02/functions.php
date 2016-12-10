@@ -78,7 +78,8 @@ function hide_menu() {
       remove_submenu_page( 'themes.php', 'themes.php' ); // hide the theme selection submenu
       remove_submenu_page( 'themes.php', 'widgets.php' ); // hide the widgets submenu
       remove_submenu_page( 'themes.php', 'theme-editor.php' ); // hide the editor menu
-
+      remove_menu_page('edit-comments.php');
+      remove_menu_page('tools.php');
       // Le code suisant c'est juste poure retirer le sous menu "Personnaliser"
       $customize_url_arr = array();
       $customize_url_arr[] = 'customize.php'; // 3.x
