@@ -15,12 +15,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri() ?>/assets/components/logo_baner.ico">
-
-	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/assets/components/animate.css/animate.min.css">
 	<?php wp_head(); ?>
 </head>
 	<body <?php body_class(); ?>>
-<?php include_once("analyticstracking.php") ?>
 
 	<header id="masthead" class="site-header" role="banner">
 

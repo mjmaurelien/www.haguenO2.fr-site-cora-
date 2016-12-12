@@ -1,8 +1,8 @@
 <?php
 function bandeau_posts_type(){
   $labels_bandeau_post_type_array = array(
-            'name'                  =>  __('Bandeau page Offres (minmum 1280px x 150px)', 'haguen02'),
-            'singular_name'         =>  __('Bandeau page Offres', 'haguen02'),
+            'name'                  =>  __('Bandeau page : Offres (minmum 1280px x 150px)', 'haguen02'),
+            'singular_name'         =>  __('Bandeau page : Offres', 'haguen02'),
             'add_new'               =>  __('Ajouter un bandeau offre', 'haguen02'),
             'add_new_item'          =>  __('Ajouter un bandeau offre', 'haguen02'),
             'edit_item'             =>  __('Editer le bandeau offre', 'haguen02'),
@@ -12,7 +12,7 @@ function bandeau_posts_type(){
             'not_found'             =>  __('Aucun bandeau offre', 'haguen02'),
             'not_found_in_trash'    =>  __('Aucun bandeau offre dans la corbeille', 'haguen02'),
             'parent_item_colon'     =>  __('--', 'haguen02'),
-            'menu_name'             =>  __('Bandeau page offres', 'haguen02')
+            'menu_name'             =>  __('Bandeau page : Offres', 'haguen02')
         );
         $supports_bandeau_post_type_array = array(
             'title',
