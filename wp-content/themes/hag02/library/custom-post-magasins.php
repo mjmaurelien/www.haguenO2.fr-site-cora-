@@ -18,9 +18,6 @@ function magasin_posts_type(){
             'title',
             'editor',
             'thumbnail',
-            'excerpt',
-            'comments',
-            'revisions'
         );
         $rewrite_magasin_post_type_array = array(
             'slug'          =>  _x('magasin', 'Pour les collections', 'foundationpress'),

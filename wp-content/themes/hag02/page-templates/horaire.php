@@ -20,16 +20,9 @@ get_header(); ?>
      </div>
   	</div>
   		<div class="container-fluid" id="petit">
-
   				<div class="row logo">
-
-  							 
-
-
-
   						<div class="small-12 medium-12 large-12 columns ">
   							<div class="row">
-
   								<?php
   									$args = array( 'post_type' => 'horaire', 'posts_per_page' => 50, 'orderby' =>'date','order' => 'DESC' );
   									$loop = new WP_Query( $args );
@@ -37,8 +30,6 @@ get_header(); ?>
   									$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail' );
   									$url = $thumb['0'];
   								?>
-
-
   									<div class=" large-4 medium-6 small-12 columns bloc">
   										<div class="horaires">
   													<img src="<?php echo $url ?>" alt=""/>
@@ -49,27 +40,15 @@ get_header(); ?>
   												</div>
   										</div>
   									</div>
-
-
   							<?php endwhile; ?>
   							<?php wp_reset_query(); ?>
   							</div>
   						</div>
-
   				</div>
   		</div>
     </div>
   </section>
-
-
-
-
-
-
 <?php endwhile;?>
-
 <?php do_action( 'foundationpress_after_content' ); ?>
-
 </div>
-
 <?php get_footer();

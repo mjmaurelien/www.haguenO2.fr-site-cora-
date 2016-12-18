@@ -59,7 +59,7 @@ get_header(); ?>
 
                 <div class=" large-3 medium-4 small-12  columns no-gutter">
                   <div class="image_offre">
-                    <a href="<?php the_field('lien_offres')?>" target="_blank">
+                    <a href="<?php the_field('lien_vers_offres')?>" target="_blank">
                     <img src="<?php echo $url ?>" alt=""/>
                   </a>
                   </div>

@@ -18,9 +18,7 @@ function horaire_posts_type(){
             'title',
             'editor',
             'thumbnail',
-            'excerpt',
-            'comments',
-            'revisions'
+
         );
         $rewrite_horaire_post_type_array = array(
             'slug'          =>  _x('horaire', 'Pour les collections', 'foundationpress'),
