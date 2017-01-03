@@ -47,7 +47,6 @@ require_once( 'library/custom-post-bandeau.php' );
 require_once( 'library/custom-post-portfolio.php' );
 require_once( 'library/custom-post-magasins.php' );
 require_once( 'library/custom-post-horaire.php' );
-require_once( 'library/custom-post-photo.php' );
 /** Configure responsive image sizes */
 require_once( 'library/responsive-images.php' );
 
