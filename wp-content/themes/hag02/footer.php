@@ -36,12 +36,15 @@
 			</div>
 
 		</section>
-		<div class="droit row">
-						<div class="large-12 medium-12 small-12 text-center">
+		<section class="footer2 text-center">
+			<div class="row container-fluid" id="petit">
+		<div class="row text-right">
+						<div class="large-12 medium-12 small-12">
 							 <p><span>www.haguenO2.fr&copy;</span></br>designé par HaguenO2 tous droits réservés</p>
 						 </div>
 		</div>
-
+		</div>
+	</section>
 
 
 
@@ -94,6 +97,6 @@ function myFunction() {
 
 <?php wp_footer(); ?>
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
-
+</main>
 </body>
 </html>

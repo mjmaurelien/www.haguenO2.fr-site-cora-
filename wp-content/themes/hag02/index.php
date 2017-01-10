@@ -19,13 +19,37 @@ get_header(); ?>
 
 
 <section>
-	<div class="row slide" id="front-heros" >
 
-</div>
+		<div class="row slider">
+			<?php
+				$args = array( 'post_type' => 'slider', 'posts_per_page' => 1, 'orderby' =>'date','order' => 'DESC' );
+				$loop = new WP_Query( $args );
+				while ( $loop->have_posts() ) : $loop->the_post();
+				$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
+				$url = $thumb['0'];
+			?>
+
+
+				<div class=" large-12 medium-12 small-12 columns no-gutter">
+
+					<div class="slider_index">
+
+						<img src="<?php echo $url ?>" alt="" />
+
+					</div>
+				</div>
+
+
+
+		<?php endwhile; ?>
+		<?php wp_reset_query(); ?>
+		</div>
+
+
 </section>
 
 <section id="commercant">
- <div class="row">
+ <div class="row container-fluid" id="petittitre">
 	<div class="large-12 columns text-center">
 			<h2>les commerçants</h2>
 			<hr class="light">
@@ -35,8 +59,7 @@ get_header(); ?>
 		<div class="container-fluid" id="petit">
 				<div class="row logo">
 						<div class="small-12 large-12 columns ">
-							<div class="row">
-
+							<div>
 								<?php
 									$args = array( 'post_type' => 'magasin', 'posts_per_page' => 50, 'orderby' =>'date','order' => 'DESC' );
 									$loop = new WP_Query( $args );

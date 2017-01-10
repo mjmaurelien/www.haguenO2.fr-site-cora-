@@ -1,58 +1,16 @@
-#front-heros {
-	.marketing {
-		@include grid-row();
-		max-width: 55rem;
-	}
-
-	@include breakpoint(small) {
-		background: url('../images/cora/sildeO2.jpg') bottom center;
-		background-size: cover;
-		background-position: bottom;
-		padding: rem-calc(65%) 0;
-		margin: 0 0 rem-calc(32);
-		height: rem-calc(300);
-    position: relative;
-    top:28px;
-    width: 100%;
-
-	}
-
-	@include breakpoint(medium) {
-		background: url('../images/cora/sildeO2.jpg') bottom center;
-		background-size: cover;
-		background-position: center;
-		height: rem-calc(700);
-		margin: 0 0 rem-calc(72);
-	}
 
 
+
+.slider{
+  margin-bottom: 70px !important;
 }
-#front-heros-offres {
-	.marketing {
-		@include grid-row();
-		max-width: 55rem;
-	}
-
-	@include breakpoint(small) {
-		background: url('<?php echo $url ?>') bottom center;
-		background-size: cover;
-		background-position: bottom;
-		padding: rem-calc(65%) 0;
-		margin: 0 0 rem-calc(32);
-		height: rem-calc(300);
-    position: relative;
-    top:28px;
-    width: 100%;
-
-	}
-
-	@include breakpoint(medium) {
-		background: url('<?php echo $url ?>') bottom center;
-		background-size: cover;
-		background-position: center;
-		height: rem-calc(700);
-		margin: 0 0 rem-calc(72);
-	}
-
+.slider_index{
+  height: auto;
+  width: 100%;
+  margin-bottom: 70px;
+img{
+  height: auto;
+  width: 100%;
+}
 
 }

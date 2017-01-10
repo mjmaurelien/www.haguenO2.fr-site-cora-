@@ -32,19 +32,25 @@
         margin: 10px auto 0 auto;
       }
 }
-.droit{
-  background: #262626;
-  height: 60px;
-  padding: 5px;
-  p{
-    margin-bottom :0px;
-    color: #B3B3B3;
-    font-family: 'Roboto',Arial, sans-serif;
-    font-weight: 700;
-  }
-  span{
-    color: $bleu-light;
-    font-family: 'Roboto',Arial, sans-serif;
-    font-weight: 700;
-  }
+
+
+.footer2{
+    background: #262626;
+    padding: 10px;
+	        p{
+	        font-size: 15px;
+	        font-family: 'Roboto',Arial, sans-serif;
+	        font-weight: 700;
+	        color: #B3B3B3;
+          text-align: center;
+	        }
+        span{
+          color: $bleu-light;
+          font-family: 'Roboto',Arial, sans-serif;
+          font-weight: 700;
+        }
+        #petit{
+          margin: 10px auto 0 auto;
+        }
+
 }

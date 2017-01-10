@@ -27,7 +27,7 @@ get_header(); ?>
 
 
   						<div class="small-12 large-12 columns ">
-  							<div class="row">
+  							<div>
 
   								<?php
   									$args = array( 'post_type' => 'magasin', 'posts_per_page' => 50, 'orderby' =>'date','order' => 'DESC' );

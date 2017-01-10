@@ -22,7 +22,7 @@ get_header(); ?>
   		<div class="container-fluid" id="petit">
   				<div class="row logo">
   						<div class="small-12 medium-12 large-12 columns ">
-  							<div class="row">
+  							<div>
   								<?php
   									$args = array( 'post_type' => 'horaire', 'posts_per_page' => 50, 'orderby' =>'date','order' => 'DESC' );
   									$loop = new WP_Query( $args );

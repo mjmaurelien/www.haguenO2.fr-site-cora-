@@ -18,7 +18,7 @@
 	<?php wp_head(); ?>
 </head>
 	<body <?php body_class(); ?>>
-
+<main>
 	<header id="masthead" class="site-header" role="banner">
 
 

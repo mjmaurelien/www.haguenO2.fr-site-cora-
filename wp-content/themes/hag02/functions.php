@@ -43,8 +43,9 @@ require_once( 'library/custom-nav.php' );
 
 /** Change WP's sticky post class */
 require_once( 'library/sticky-posts.php' );
-require_once( 'library/custom-post-bandeau.php' );
+require_once( 'library/custom-post-slider.php' );
 require_once( 'library/custom-post-portfolio.php' );
+require_once( 'library/custom-post-bandeau.php' );
 require_once( 'library/custom-post-magasins.php' );
 require_once( 'library/custom-post-horaire.php' );
 /** Configure responsive image sizes */
