@@ -80,3 +80,37 @@ ul{
 }
 }
 }
+.section-construction{
+	padding: inherit;
+
+
+}
+.entry-content-construction{
+	ul{
+		margin: auto;
+		a{
+		li{
+			display: block;
+			background: #95c856;
+			border: 2px solid #7bb139;
+			height: 50px;
+			width: 100%;
+			margin-top: 0px;
+			text-decoration: none;
+			padding: 10px;
+			text-align: center;
+			font-size: 16px;
+	    font-family: 'Roboto',Arial, sans-serif;
+	    font-weight: 700;
+	    color: #FFF;
+
+		}
+		}
+		li:hover{
+			background: #7bb139;
+			color: #FFF;
+			border: 2px solid #95C856;
+			transition: 0.5s;
+	}
+	}
+}

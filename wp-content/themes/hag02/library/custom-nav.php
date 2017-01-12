@@ -38,12 +38,12 @@ function wpt_register_theme_customizer( $wp_customize ) {
 			$wp_customize,
 			'mobile_menu_layout',
 			array(
-				'type'		=> 'radio',
+				'type'			=> 'radio',
 				'section' 	=> 'mobile_menu_layout',
 				'settings' 	=> 'wpt_mobile_menu_layout',
-		        'choices' => array(
-								'topbar' => 'Topbar',
-		            'offcanvas' => 'Offcanvas',
+        'choices'		=> array(
+				'topbar' 		=> 'Topbar',
+        'offcanvas' => 'Offcanvas',
 		        ),
 			)
 		)

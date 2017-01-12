@@ -18,7 +18,7 @@
 	<?php wp_head(); ?>
 </head>
 	<body <?php body_class(); ?>>
-<main>
+
 	<header id="masthead" class="site-header" role="banner">
 
 
@@ -27,7 +27,7 @@
 		<div class="large-12 columns menu2 text-center">
 		    <ul class="topnav" id="myTopnav">
 		      <li class="logo_top">
-						<a class="accueil" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<a class="accueil" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" >
 						</a>
 					</li>
 		      <li class="icon">
@@ -35,11 +35,11 @@
 						</a>
 		      </li>
 					<li>
-					<?php wp_nav_menu( array( 'theme_location' => 'top-bar-r' ) ); ?>
-				</li>
-				</ul>
 
-		 </div>
+					<?php wp_nav_menu( array( 'theme_location' => 'top-bar-r' ) ); ?>
+					</li>
+				</ul>
+		</div>
 
 
 		 	<!-- ========================== -->
