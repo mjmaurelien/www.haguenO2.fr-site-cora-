@@ -11,7 +11,7 @@
 	}
 
 	@include breakpoint(small) {
-		background: url('../images/cora/Pageconstruction.svg') bottom center;
+		background: url('../images/cora/Pageconstruction.jpg') bottom center;
 		background-size: cover;
 		background-position: bottom;
 		padding: rem-calc(65%) 0;
@@ -32,10 +32,10 @@
 	}
 
 	@include breakpoint(medium) {
-		background: url('../images/cora/Pageconstruction_big.svg') bottom center;
+		background: url('../images/cora/Pageconstruction_big.jpg') bottom center;
 		background-size: cover;
 		background-position: center;
-		height: rem-calc(700);
+		height: 60rem;
 		margin: 0 0 rem-calc(72);
 		.errore{
 			position: absolute;
